@@ -269,3 +269,184 @@ footer a:not(.nav-link) {
 .entry-title a {
   text-decoration: none;
 }
+
+/* B. Style for v2 */
+/* B.1 Common */
+:root {
+  --color-main: #fff;
+  --color-sub: #ddd;
+  --color-sub2: #888;
+  --bg-main: #000;
+  --bg-sub: #222;
+  --bg-sub2: #555;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--color-sub2);
+}
+body h1, 
+body h2, 
+body h3, 
+body h4, 
+body h5 {
+  margin: 0;
+} 
+.pointer {
+  cursor: pointer;
+}
+.animated {
+  transition: all 0.5s ease;
+}
+.zoom-in:hover {
+  transform: scale(1.01);
+}
+
+/* B.2 Sections */
+.wrapper {
+  position: fixed;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-main);
+}
+.inner {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.central {
+  position: relative;
+  /* background-color: var(--bg-sub2); */
+}
+.central h5 {
+  color: var(--color-sub2);
+}
+.central h1 {
+  color: var(--color-main);
+  font-size: 60px;;
+}
+.central h1,
+.central h5,
+.central p {
+  visibility: visible;
+  opacity: 1; 
+}
+.central:hover img.rounded-circle {
+  box-shadow: 0px 0px 30px rgba(255,255,255, 0.7);
+}
+.central:hover h1,
+.central:hover h5,
+.central:hover p {
+  visibility: hidden;
+  opacity: 0; 
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+  cursor: pointer;
+}
+.fixed .list {
+  visibility: hidden;
+  opacity: 0;
+  padding: 20px;
+  background-color: var(--bg-sub2);
+}
+.fixed.top .list {
+  transform: translateY(-100%);
+}
+.fixed.bottom .list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.fixed .content:hover .list {
+  visibility: visible;
+  opacity: 1; 
+}
+.fixed .content h3 {
+  background-color: var(--bg-sub);
+}
+.fixed .content:hover h3 {
+  color: var(--color-main);
+}
+.fixed.top .content:hover .list {
+  transform: translateY(0);
+}
+.fixed.bottom .content:hover .list {
+  top: calc(-100% - 74px);
+}
+.top {
+  top: 0;
+  left: 0;
+}
+.fixed h3 {
+  padding: 10px;
+  line-height: 1;
+}
+.top h3 {
+  border-bottom: 1px dashed #fff;
+}
+.bottom {
+  bottom: 0;
+  right: 0;
+}
+.bottom h3 {
+  border-top: 1px dashed #fff;
+}
+
+/* Inner circle menu */
+.menu {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+}
+.menu h4 {
+  padding: 10px;
+}
+.menu img {
+  padding: 5px;
+  background-color: var(--color-main);
+}
+.menu.top-left {
+  top: 0;
+  left: 0;
+}
+.menu.top-right {
+  top: 0;
+  right: 0;
+}
+.menu.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+.menu.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.central:hover .menu.top-left,
+.central:hover .menu.top-right,
+.central:hover .menu.bottom-left,
+.central:hover .menu.bottom-right {
+  visibility: visible;
+  opacity: 1;
+}
+.central:hover .menu.top-left {
+  transform: translate(-60%, -60%);
+}
+.central:hover .menu.top-right {
+  transform: translate(60%, -60%);
+}
+.central:hover .menu.bottom-left {
+  transform: translate(-60%, 60%);
+}
+.central:hover .menu.bottom-right {
+  transform: translate(60%, 60%);
+}
+
