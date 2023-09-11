@@ -1,0 +1,167 @@
+{
+    "info": {
+        "full_name": "William Anhui",
+        "position": "Senior Fullstack Developer",
+        "phone": "+84 3 987 3 9420",
+        "address": "Danang, Vietnam",
+        "birdth_year": "1994",
+        "working_start_date": "2014-09-01",
+        "nationality": "Vietnam",
+        "job_opening": true,
+        "avatar_url": "/images/my-avatar.jpg",
+        "self_slogan": "Your success is my mission - this is why the univer attracting us to each other",
+        "hobbies": "Reading self-help books, researching new tech, singing & playing flute"
+    },
+    "languges": [
+        "English",
+        "Tiếng Việt"
+    ],
+    "social_ids": {
+        "twitter": "https://twitter.com/anhuibl",
+        "linkedin": "https://www.linkedin.com/in/william-anhui-8yoe-82508196",
+        "github": "https://github.com/anhuibl",
+        "google": "mailto:anhuibl.it@gmail.com"
+    },
+    "services": [
+        {
+            "name": "System design",
+            "image_url": "/images/services/ui-ux.svg",
+            "intro": "Database & promgraming languages"
+        },
+        {
+            "name": "Mobile & Web",
+            "image_url": "/images/services/graphic-design.svg",
+            "intro": "Build fast, secured & light applications"
+        },
+        {
+            "name": "Infrastructure",
+            "image_url": "/images/services/web-development.svg",
+            "intro": "Setup scalable servers, CI-CD integration"
+        },
+        {
+            "name": "Support 24/7",
+            "image_url": "/images/services/app-development.svg",
+            "intro": "Work & co-porate with love & win-to-win style"
+        }
+    ],
+    "skills": {
+        "max_score": 100,
+        "list": [
+            {
+                "name": "PHP/Laravel",
+                "yoe": 8,
+                "score": 95
+            },
+            {
+                "name": "SQL/MySQL",
+                "yoe": 8,
+                "score": 95
+            },
+            {
+                "name": "HTML5/CSS3/Javascript",
+                "yoe": 8,
+                "score": 95
+            },
+            {
+                "name": "Self development",
+                "yoe": 8,
+                "score": 90
+            },
+            {
+                "name": "AWS",
+                "yoe": 6,
+                "score": 85
+            },
+            {
+                "name": "Shell/bash script",
+                "yoe": 6,
+                "score": 85
+            },
+            {
+                "name": "Typescript/NodeJs",
+                "yoe": 4,
+                "score": 75
+            },
+            {
+                "name": "ReactJs/Angular/Vue",
+                "yoe": 4,
+                "score": 75
+            },
+            {
+                "name": "PHP/Wordpress",
+                "yoe": 4,
+                "score": 75
+            },
+            {
+                "name": "Dev Ops",
+                "yoe": 4,
+                "score": 75
+            },
+            {
+                "name": "Mobile",
+                "yoe": 4,
+                "score": 75
+            },
+            {
+                "name": "Migration/integration",
+                "yoe": 4,
+                "score": 75
+            }
+        ]
+    },
+    "projects": [
+        {
+            "name": "Healthcare mobile & web applications",
+            "team_size": 60,
+            "company": "AST",
+            "role": "Team lead",
+            "date_start": "2017-09",
+            "date_end": "2021-08",
+            "responsibilities": "System design, leading & tracking team, code review, etc.",
+            "tech_stacks": "AWS, PHP/Laravel, SQL/MySQL, Shell/Bash, HTML/CSS/Javascript, Restful API, Docker, Integration, Migration, Sendgrid, Testing, Self development"
+        },
+        {
+            "name": "E-commerce mobile application",
+            "team_size": 15,
+            "company": "STS",
+            "role": "Team lead",
+            "date_start": "2022-02",
+            "date_end": "2020-09",
+            "responsibilities": "System design, feature development",
+            "tech_stacks": "AWS, PHP/Laravel, SQL/Mariadb, Shell/Bash, HTML/CSS/Javascript, Restful API,, Docker, Payment (Killbill, Smartpay, Braintree)."
+        },
+        {
+            "name": "Logistics web application",
+            "team_size": 5,
+            "company": "Freelancer",
+            "role": "Project manager & team lead",
+            "date_start": "2022-10",
+            "date_end": "2023-09",
+            "responsibilities": "Bridge, specification clarification, system design, leading & feature development",
+            "tech_stacks": "AWS, PHP/Laravel, SQL/Mariadb, ReactJs, Shell/Bash, HTML/CSS/Javascript, Restful API, Docker, DevOps."
+        }
+    ],
+    "experiences": [
+        {
+            "name": "Senior Fullstack Developer",
+            "company": "Freelance",
+            "date_start": "2023-12",
+            "date_end": "2022-02",
+            "summary": "Woman healthcare (Singapore), logistics (US) projects using Laravel, MySQL, Wordpress, React & AWS, integrate Stripe & other payment gateways"
+        },
+        {
+            "name": "Senior Software Engineer",
+            "company": "Saigon Technology Solutions JSC | STS",
+            "date_start": "2022-02",
+            "date_end": "2020-09",
+            "summary": "E-commerce mobile application (Australia): using Laravel, MySQL & AWS, integrate payment gateways."
+        },
+        {
+            "name": "Senior Software Engineer",
+            "company": "AsianTech Co., Ltd. | AST",
+            "date_start": "2020-08",
+            "date_end": "2015-03",
+            "summary": "Join many kind of projects; mentor, training, sharing & presentation. Gained many project awards and some personal achievements, rewards"
+        }
+    ]
+}
